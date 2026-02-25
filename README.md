@@ -46,7 +46,7 @@ Run the initialization script:
 ./init.sh
 ```
 
-This downloads seed database data, example configuration and example study data (from the cBioPortal datahub) needed
+This downloads seed database data, example configuration and example study data (from the cBioPortal datahub) needed.
 
 
 ---
@@ -61,7 +61,7 @@ docker compose up -d
 
 > [!CAUTION]
 > Do not interrupt the database initialization process.
-> It can take some minutes to import all the database data the first time
+> It can take some minutes to import all the database data the first time.
 
 
 Once running, cBioPortal should be available at `http://localhost:8080`
@@ -76,7 +76,7 @@ docker compose ps
 
 ## 3. Load Your Study Metadata
 
-Put your study data in a new directory i.e `my_cbio_study_data` inside the ./studies/ directory
+Put your study data in a new directory, i.e `my_cbio_study_data`, inside the `./studies/` directory.
 
 Your study must follow the cBioPortal directory structure.
 
@@ -92,7 +92,7 @@ docker compose exec cbioportal metaImport.py \
 ```
 
 If the import completes successfully, you should not see errors on the console and see an update to the study status
-to 'AVAILABLE'
+to 'AVAILABLE'.
 
 ---
 
