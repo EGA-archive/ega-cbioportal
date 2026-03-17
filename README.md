@@ -76,7 +76,7 @@ docker compose ps
 
 ## 3. Load Your Study Metadata
 
-Put your study data in a new directory, i.e `my_cbio_study_data`, inside the `./studies/` directory.
+Put your study data in a new directory, i.e `my_cbio_study_data`, inside the `./study/` directory.
 
 Your study must follow the cBioPortal directory structure.
 
@@ -87,7 +87,7 @@ Run the following command:
 ```bash
 docker compose exec cbioportal metaImport.py \
   -u http://cbioportal:8080 \
-  -s studies/my_cbio_study_data/ \
+  -s study/my_cbio_study_data/ \
   -o
 ```
 
